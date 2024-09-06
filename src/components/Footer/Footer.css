@@ -1,0 +1,20 @@
+Footer {
+    padding: 20px;
+    background-color: var(--background-verde-principal);
+    border-top: 1px solid white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 12px;;
+    color: var(--background-rosa);
+    text-align: center;
+}
+.image-box {
+    display: flex;
+    justify-content: center;
+}

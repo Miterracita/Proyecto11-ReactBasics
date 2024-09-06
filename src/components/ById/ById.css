@@ -1,0 +1,47 @@
+.box-detail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 50px 50px;
+}
+
+.box-info {
+    display: flex;
+    gap: 50px;
+}
+
+.box-img {
+    width: 40%;
+    overflow: hidden;
+}
+
+.box-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box-txt p {
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media (max-width: 763px) {
+    .box-detail h1 {
+        font-size: 40px;
+    }
+    .box-info {
+        flex-direction: column;
+    }
+    
+    .box-img {
+        width: 100%;
+    }
+}

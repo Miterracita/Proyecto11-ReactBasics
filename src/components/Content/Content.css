@@ -1,0 +1,4 @@
+.content {
+    padding-top: calc(var(--height-header) + 25px); /*hay que tener en cuenta el tamaño del header para que no se pise el contenido*/
+    background-color: var(--background-rosa);
+}
